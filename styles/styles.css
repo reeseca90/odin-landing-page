@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 ul {
@@ -9,15 +10,21 @@ ul {
 
 a {
     text-decoration: none;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
 }
 
 .header {
     height: 72px;
-    background-color: teal;
+    background-color: #1F2937;
+    color: #F9FAF8;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 0 16px 0 16px;
 }
 
 .righthead {
@@ -26,19 +33,25 @@ a {
 }
 
 .description {
-    background-color: teal;
+    background-color: #1F2937;
     display: flex;
     justify-content: center;
-}
-
-.description img {
-    padding: 36px;
 }
 
 .description .left {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: left;
+}
+
+.description button {
+    border-style: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.description img {
+    padding: 36px;
 }
 
 .information {
@@ -48,28 +61,42 @@ a {
     margin: 24px;
     gap: 24px;
 }
-/* 
+
 .information .infotop {
-    commented out for later use
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
-*/ 
+
 .information .infoimgs {
     display: flex;
     gap: 16px;
+}
+
+.imgcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.information img {
+    border: 2px solid #3882F6;
+    border-radius: 10px;
 }
 
 .quote {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: lightgray;
+    background-color: #E5E7EB;
     padding: 36px;
 }
-/*
-.quote .quotetop {
-    commented out for later use
-}
 
+.quote .quotetop {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+/*
 .quote .quoteattr {
     commented out for later use
 }
@@ -77,9 +104,10 @@ a {
 .signup {
     display: flex;
     justify-content: space-around;
-    background-color: lightskyblue;
-    margin: 128px;
+    background-color: #3882F6;
+    margin: 100px;
     align-items: center;
+    border-radius: 20px;
 }
 
 .signup .signupleft {
@@ -91,10 +119,33 @@ a {
     margin: 75px;
 }
 
+.signup button {
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 72px;
-    background-color: teal;
+    color: #F9FAF8;
+    background-color: #1F2937;
 }
+
+#headerlogo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+#maintext {
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+#subtext {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
