@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    height: 72px;
+    background-color: teal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px 0 16px;
+}
+
+.righthead {
+    display: flex;
+    gap: 16px;
+}
+
+.description {
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+}
+
+.description img {
+    padding: 36px;
+}
+
+.description .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 24px;
+    gap: 24px;
+}
+/* 
+.information .infotop {
+    commented out for later use
+}
+*/ 
+.information .infoimgs {
+    display: flex;
+    gap: 16px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+    padding: 36px;
+}
+/*
+.quote .quotetop {
+    commented out for later use
+}
+
+.quote .quoteattr {
+    commented out for later use
+}
+*/ 
+.signup {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightskyblue;
+    margin: 128px;
+    align-items: center;
+}
+
+.signup .signupleft {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup .signupright {
+    margin: 75px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    background-color: teal;
+}
