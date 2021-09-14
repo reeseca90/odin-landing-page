@@ -45,7 +45,7 @@ button:active {
 .description {
     background-color: #1F2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     min-height: 300px;
 }
@@ -55,6 +55,7 @@ button:active {
     flex-direction: column;
     align-items: left;
     padding: 24px;
+    flex-basis: 400px;
 }
 
 .description button {
@@ -73,7 +74,7 @@ button:active {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 24px;
+    padding: 64px;
     gap: 24px;
     flex-wrap: wrap;
 }
@@ -107,14 +108,19 @@ button:active {
     flex-direction: column;
     align-items: center;
     background-color: #E5E7EB;
-    padding: 64px 24px;
-    margin: 64px 0 64px 0;
+    padding: 48px;
 }
 
 .quote .quotetop {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.quotetop p {
+    max-width: 900px;
 }
 
 .quote .quoteattr {
@@ -122,6 +128,7 @@ button:active {
     margin-left: auto;
     font-size: 24px;
     font-weight: bold;
+    margin-right: 100px;
 }
 
 .signup {
@@ -130,6 +137,7 @@ button:active {
     background-color: #3882F6;
     margin: 100px;
     align-items: center;
+    justify-content: center;
     border-radius: 20px;
     color: white;
 }
@@ -144,7 +152,6 @@ button:active {
     font-weight: bold;
     font-size: 24px;
 }
-
 
 .signup .signupright {
     padding: 75px;
